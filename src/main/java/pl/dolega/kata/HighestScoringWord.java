@@ -10,5 +10,4 @@ public class HighestScoringWord {
         System.out.println(list);
         return "";
     }
-
 }
