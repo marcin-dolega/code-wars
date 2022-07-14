@@ -1,14 +1,14 @@
 package pl.dolega;
 
-import pl.dolega.kata.HumanReadableTime;
-import pl.dolega.kata.SumParts;
+import pl.dolega.kata.ValidParentheses;
 
 public class App {
 
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
 
-        System.out.println(HumanReadableTime.makeReadable(0));
-        System.out.println(HumanReadableTime.makeReadable(86399));
+        System.out.println(ValidParentheses.validParentheses("(()(())())()"));
+        System.out.println(ValidParentheses.validParentheses("))()()(("));
+
 
     }
 
