@@ -1,19 +1,16 @@
 package pl.dolega;
 
-import pl.dolega.kata._7kyu.SuzukiNeedsHelp;
+import pl.dolega.kata._4kyu.StripComments;
 
-import java.util.Arrays;
-
-import static java.lang.System.out;
+import java.io.PrintStream;
 
 public class App {
 
     public static void main(String[] args) {
 
-        String students = "Naoki Yasuhiro Satoru Tadashi Yasuo Yoshihiro Nori Mikio Ryota Nobuyuki Yasuo Shuji Nobuyuki Ronin Ryoichi Taro Shig Shunichi Shunichi Sadao Yuichi Takumi Mitsuru Satoru Takashi Tsuneo Noboru Shichiro Takashi Tama Nori Yasuhiro Shoji Raiden Mikio Minoru Yoshito Yoshinori Shoichi Miki Takao Tomi Shuichi Ryozo Yuichi Shoji Tadao Shin Takumi Seiichi Takumi Toshihiro Saburo Naoko Yoichi Shoichi Nobuo Shuichi Yoshito Shinji Shiro Minori Toru Yasushi Mitsuru Ryo Sadao Satoru Naoki Ryoichi Yuji Toshiyuki Naoko Shunichi Mitsuru Shunichi";
-        String[] studentArray = SuzukiNeedsHelp.lineupStudents(students);
-        for (int i = 0; i < studentArray.length; i++) {
-            out.println(studentArray[i]);
-        }
+        System.out.println(StripComments.stripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new String[]{"#", "!"}));
+//        System.out.println(StripComments.stripComments("a #b\nc\n\nc[\n]\nd $e f g", new String[] { "#", "$" }));
+//        System.out.println(StripComments.stripComments("[#a#]", new String[] { "#", "$" }));
+
     }
 }
