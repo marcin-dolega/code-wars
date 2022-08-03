@@ -1,4 +1,4 @@
-package pl.dolega.kata;
+package pl.dolega.kata._5kyu;
 
 import java.util.List;
 import java.util.stream.Collectors;

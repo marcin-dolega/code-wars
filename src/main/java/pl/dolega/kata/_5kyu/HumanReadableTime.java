@@ -1,4 +1,4 @@
-package pl.dolega.kata;
+package pl.dolega.kata._5kyu;
 
 public class HumanReadableTime {
 

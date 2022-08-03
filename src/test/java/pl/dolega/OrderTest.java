@@ -1,7 +1,7 @@
 package pl.dolega;
 
 import org.junit.Test;
-import pl.dolega.kata.Order;
+import pl.dolega.kata._6kyu.Order;
 
 import static org.junit.Assert.assertEquals;
 

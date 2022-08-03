@@ -2,7 +2,7 @@ package pl.dolega;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.dolega.kata.DontGiveMeFive;
+import pl.dolega.kata._7kyu.DontGiveMeFive;
 
 public class DontGiveMeFiveTest {
 

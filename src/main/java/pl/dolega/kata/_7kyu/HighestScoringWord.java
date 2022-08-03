@@ -1,4 +1,4 @@
-package pl.dolega.kata;
+package pl.dolega.kata._7kyu;
 
 import java.util.Arrays;
 import java.util.List;

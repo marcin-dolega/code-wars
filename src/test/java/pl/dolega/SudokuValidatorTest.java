@@ -2,7 +2,7 @@ package pl.dolega;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.dolega.kata.SudokuValidator;
+import pl.dolega.kata._4kyu.SudokuValidator;
 
 public class SudokuValidatorTest {
 

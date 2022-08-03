@@ -2,7 +2,7 @@ package pl.dolega;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.dolega.kata.ValidParentheses;
+import pl.dolega.kata._5kyu.ValidParentheses;
 
 public class ValidParenthesesTest {
 

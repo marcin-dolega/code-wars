@@ -2,7 +2,7 @@ package pl.dolega;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.dolega.kata.SumParts;
+import pl.dolega.kata._6kyu.SumParts;
 
 import java.util.Arrays;
 

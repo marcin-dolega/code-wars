@@ -2,7 +2,7 @@ package pl.dolega;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.dolega.kata.CamelCase;
+import pl.dolega.kata._6kyu.CamelCase;
 
 public class CamelCaseTest {
 

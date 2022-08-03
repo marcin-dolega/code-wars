@@ -1,4 +1,4 @@
-package pl.dolega.kata;
+package pl.dolega.kata._6kyu;
 
 public class GoodVsEvil {
 

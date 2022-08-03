@@ -2,7 +2,7 @@ package pl.dolega;
 
 import org.junit.Assert;
 import org.junit.Test;
-import pl.dolega.kata.Permutations;
+import pl.dolega.kata._4kyu.Permutations;
 
 import java.util.List;
 import java.util.Set;
