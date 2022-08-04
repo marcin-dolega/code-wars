@@ -1,11 +1,13 @@
 package pl.dolega;
 
-import pl.dolega.kata._6kyu.CountTheDivisibleNumbers;
+import pl.dolega.kata._6kyu.MultiplesOf3Or5;
 
 public class App {
 
     public static void main(String[] args) {
 
-        System.out.println(CountTheDivisibleNumbers.divisibleCount(8, Integer.MAX_VALUE, 2));
+        MultiplesOf3Or5 multiplesOf3Or5 = new MultiplesOf3Or5();
+        System.out.println(multiplesOf3Or5.solution(10));
+
     }
 }
